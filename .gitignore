@@ -1,0 +1,13 @@
+*.ipa
+DerivedData
+*pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xcheckout
+*.moved-aside
+*.xcuserstate
+.DS-Store
+Pods/
+build/
