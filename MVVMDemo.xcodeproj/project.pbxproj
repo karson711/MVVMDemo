@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DAA2A67C5684B666428A7A01 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDC644A6D5697407E7A546 /* libPods.a */; };
-		FFB12E3B1CC9BD47007F9971 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB12E3A1CC9BD47007F9971 /* ViewModel.m */; };
-		FFB12E3E1CC9BD78007F9971 /* MVVMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB12E3D1CC9BD78007F9971 /* MVVMCell.m */; };
-		FFB12E411CC9BD95007F9971 /* MVVMCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB12E401CC9BD95007F9971 /* MVVMCellModel.m */; };
+		FFAB27741CCA0FCA00507BF4 /* MVVMCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB276A1CCA0FCA00507BF4 /* MVVMCellModel.m */; };
+		FFAB27751CCA0FCA00507BF4 /* MVVMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB276D1CCA0FCA00507BF4 /* MVVMCell.m */; };
+		FFAB27761CCA0FCA00507BF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB27701CCA0FCA00507BF4 /* ViewController.m */; };
+		FFAB27771CCA0FCA00507BF4 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB27731CCA0FCA00507BF4 /* ViewModel.m */; };
 		FFB12E4B1CC9D523007F9971 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB12E451CC9D523007F9971 /* APIClient.m */; };
 		FFB12E4C1CC9D523007F9971 /* NetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB12E471CC9D523007F9971 /* NetTool.m */; };
 		FFB12E4D1CC9D523007F9971 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB12E491CC9D523007F9971 /* Response.m */; };
@@ -18,7 +19,6 @@
 		FFB12E521CC9E571007F9971 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB12E501CC9E571007F9971 /* DetailViewController.xib */; };
 		FFF9106A1CC73213008676F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF910691CC73213008676F8 /* main.m */; };
 		FFF9106D1CC73213008676F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF9106C1CC73213008676F8 /* AppDelegate.m */; };
-		FFF910701CC73213008676F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF9106F1CC73213008676F8 /* ViewController.m */; };
 		FFF910731CC73213008676F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF910711CC73213008676F8 /* Main.storyboard */; };
 		FFF910751CC73213008676F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF910741CC73213008676F8 /* Assets.xcassets */; };
 		FFF910781CC73213008676F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF910761CC73213008676F8 /* LaunchScreen.storyboard */; };
@@ -47,12 +47,14 @@
 		42BD5B2127E72589129AE7D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		46FB52D0B1573B02A8C30048 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6ADDC644A6D5697407E7A546 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFB12E391CC9BD47007F9971 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewModel.h; path = ../../ViewModel.h; sourceTree = "<group>"; };
-		FFB12E3A1CC9BD47007F9971 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewModel.m; path = ../../ViewModel.m; sourceTree = "<group>"; };
-		FFB12E3C1CC9BD78007F9971 /* MVVMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVVMCell.h; path = ../../MVVMCell.h; sourceTree = "<group>"; };
-		FFB12E3D1CC9BD78007F9971 /* MVVMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVVMCell.m; path = ../../MVVMCell.m; sourceTree = "<group>"; };
-		FFB12E3F1CC9BD95007F9971 /* MVVMCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVVMCellModel.h; path = ../../MVVMCellModel.h; sourceTree = "<group>"; };
-		FFB12E401CC9BD95007F9971 /* MVVMCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVVMCellModel.m; path = ../../MVVMCellModel.m; sourceTree = "<group>"; };
+		FFAB27691CCA0FCA00507BF4 /* MVVMCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMCellModel.h; sourceTree = "<group>"; };
+		FFAB276A1CCA0FCA00507BF4 /* MVVMCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMCellModel.m; sourceTree = "<group>"; };
+		FFAB276C1CCA0FCA00507BF4 /* MVVMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMCell.h; sourceTree = "<group>"; };
+		FFAB276D1CCA0FCA00507BF4 /* MVVMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMCell.m; sourceTree = "<group>"; };
+		FFAB276F1CCA0FCA00507BF4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFAB27701CCA0FCA00507BF4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFAB27721CCA0FCA00507BF4 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		FFAB27731CCA0FCA00507BF4 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
 		FFB12E421CC9C632007F9971 /* MVVMDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMDemo.pch; sourceTree = "<group>"; };
 		FFB12E441CC9D523007F9971 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
 		FFB12E451CC9D523007F9971 /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
@@ -68,8 +70,6 @@
 		FFF910691CC73213008676F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFF9106B1CC73213008676F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFF9106C1CC73213008676F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FFF9106E1CC73213008676F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
-		FFF9106F1CC73213008676F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		FFF910721CC73213008676F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFF910741CC73213008676F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFF910771CC73213008676F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -125,6 +125,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FFAB27671CCA0FCA00507BF4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB27681CCA0FCA00507BF4 /* Model */,
+				FFAB276B1CCA0FCA00507BF4 /* View */,
+				FFAB276E1CCA0FCA00507BF4 /* ViewController */,
+				FFAB27711CCA0FCA00507BF4 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FFAB27681CCA0FCA00507BF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB27691CCA0FCA00507BF4 /* MVVMCellModel.h */,
+				FFAB276A1CCA0FCA00507BF4 /* MVVMCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFAB276B1CCA0FCA00507BF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB276C1CCA0FCA00507BF4 /* MVVMCell.h */,
+				FFAB276D1CCA0FCA00507BF4 /* MVVMCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFAB276E1CCA0FCA00507BF4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB276F1CCA0FCA00507BF4 /* ViewController.h */,
+				FFAB27701CCA0FCA00507BF4 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FFAB27711CCA0FCA00507BF4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB27721CCA0FCA00507BF4 /* ViewModel.h */,
+				FFAB27731CCA0FCA00507BF4 /* ViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FFB12E431CC9D523007F9971 /* NetWork(网络) */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,53 +184,6 @@
 				FFB12E4A1CC9D523007F9971 /* Urls.h */,
 			);
 			path = "NetWork(网络)";
-			sourceTree = "<group>";
-		};
-		FFB12E531CC9E858007F9971 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				FFB12E541CC9E858007F9971 /* Model */,
-				FFB12E551CC9E858007F9971 /* View */,
-				FFB12E561CC9E858007F9971 /* ViewController */,
-				FFB12E571CC9E858007F9971 /* ViewModel */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		FFB12E541CC9E858007F9971 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FFB12E3F1CC9BD95007F9971 /* MVVMCellModel.h */,
-				FFB12E401CC9BD95007F9971 /* MVVMCellModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FFB12E551CC9E858007F9971 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FFB12E3C1CC9BD78007F9971 /* MVVMCell.h */,
-				FFB12E3D1CC9BD78007F9971 /* MVVMCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FFB12E561CC9E858007F9971 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FFF9106E1CC73213008676F8 /* ViewController.h */,
-				FFF9106F1CC73213008676F8 /* ViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		FFB12E571CC9E858007F9971 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				FFB12E391CC9BD47007F9971 /* ViewModel.h */,
-				FFB12E3A1CC9BD47007F9971 /* ViewModel.m */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FFF9105C1CC73212008676F8 = {
@@ -213,11 +213,11 @@
 			children = (
 				FFF9106B1CC73213008676F8 /* AppDelegate.h */,
 				FFF9106C1CC73213008676F8 /* AppDelegate.m */,
-				FFB12E531CC9E858007F9971 /* Home */,
 				FFB12E4E1CC9E571007F9971 /* DetailViewController.h */,
 				FFB12E4F1CC9E571007F9971 /* DetailViewController.m */,
 				FFB12E501CC9E571007F9971 /* DetailViewController.xib */,
 				FFF910711CC73213008676F8 /* Main.storyboard */,
+				FFAB27671CCA0FCA00507BF4 /* Home */,
 				FFB12E431CC9D523007F9971 /* NetWork(网络) */,
 				FFF910741CC73213008676F8 /* Assets.xcassets */,
 				FFF910761CC73213008676F8 /* LaunchScreen.storyboard */,
@@ -437,13 +437,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB12E3E1CC9BD78007F9971 /* MVVMCell.m in Sources */,
+				FFAB27761CCA0FCA00507BF4 /* ViewController.m in Sources */,
+				FFAB27741CCA0FCA00507BF4 /* MVVMCellModel.m in Sources */,
+				FFAB27771CCA0FCA00507BF4 /* ViewModel.m in Sources */,
 				FFB12E4C1CC9D523007F9971 /* NetTool.m in Sources */,
 				FFB12E4B1CC9D523007F9971 /* APIClient.m in Sources */,
-				FFB12E411CC9BD95007F9971 /* MVVMCellModel.m in Sources */,
-				FFB12E3B1CC9BD47007F9971 /* ViewModel.m in Sources */,
+				FFAB27751CCA0FCA00507BF4 /* MVVMCell.m in Sources */,
 				FFB12E511CC9E571007F9971 /* DetailViewController.m in Sources */,
-				FFF910701CC73213008676F8 /* ViewController.m in Sources */,
 				FFB12E4D1CC9D523007F9971 /* Response.m in Sources */,
 				FFF9106D1CC73213008676F8 /* AppDelegate.m in Sources */,
 				FFF9106A1CC73213008676F8 /* main.m in Sources */,
